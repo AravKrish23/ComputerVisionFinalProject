@@ -11,3 +11,13 @@ This project explores the methodologies and challenges involved in achieving acc
     │   ├── Player_detection_YOLO_trained.ipynb       # Player detection using trained YOLO
     │   └── Player_detection_YOLO.ipynb               # Player detection using untrained YOLO
     └── pitch-transformation
+        ├── Homography_calculation_resnet.ipynb       # Pitch tranformation using Resnet-18
+        ├── HomographyTransform_note.ipynb            # Notebook to modify ground truth homography matrices
+        └── Homography_calculation_yolo.ipynb         # Pitch tranformation using Yolo
+
+
+## Model weights
+The model weights along with segmented images, modified ground truth as a JSON file and an example of group_coordinates.txt are present if the following google drive : [CV_finalProj](https://drive.google.com/drive/folders/11NgF9xnMxJK8Qa00Q5wpijpiYfgOvlRq?usp=sharing).
+-   In the folder the weights for Homography_calculation_resnet is present in the folder out
+-   weight for Homography_calculation_yolo.ipynb is last.pt
+-   weight for Player_detection_YOLO.ipynb is best.pt
